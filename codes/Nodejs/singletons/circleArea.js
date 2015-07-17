@@ -1,14 +1,13 @@
 /** Notes:
- * PI is constant.
- * 
+ * PI is constant and private to circleArea module.
  */
-var PI = Math.PI;
+var _PI = Math.PI;
 
 /**
  * Formula: to calculate the area of circle is PI * Radius * Radius
  */
 function circle(radius) {
-	return PI * radius * radius;
+	return _PI * radius * radius;
 }
 
 /**
