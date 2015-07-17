@@ -7,7 +7,7 @@
  * it will only exist as a single instance.
  */
 
-var calcArea = require('./area');
+var calcArea = require('./circleArea');
 var radius = 5;
 
 console.log("Area of the circle with radius %d is %d", radius, calcArea.circle(radius));
